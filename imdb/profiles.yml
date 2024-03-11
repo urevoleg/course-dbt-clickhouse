@@ -3,10 +3,11 @@ clickhouse_imdb:
   outputs:
     dev:
       type: clickhouse
-      schema: imdb_dbt
+      schema: sandbox
       host: localhost
       port: 8123
       user: clickadmin
-      password: 'aLpjr5HMq'
-      secure: False
+      password: ''
+      secure: True
+      verify: False
 #      cluster: '{cluster}'
